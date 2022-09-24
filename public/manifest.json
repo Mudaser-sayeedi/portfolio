@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "bag.gif",
+      "src": "bag192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "bag.gif",
+      "src": "bag512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
