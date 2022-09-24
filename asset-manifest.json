@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mudaser-sayeedi-portfolio/static/css/main.b9fb6fde.css",
-    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.f909237c.js",
+    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.c65fa3e1.js",
     "static/js/787.213c6467.chunk.js": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js",
     "service-worker.js": "/mudaser-sayeedi-portfolio/service-worker.js",
     "index.html": "/mudaser-sayeedi-portfolio/index.html",
     "main.b9fb6fde.css.map": "/mudaser-sayeedi-portfolio/static/css/main.b9fb6fde.css.map",
-    "main.f909237c.js.map": "/mudaser-sayeedi-portfolio/static/js/main.f909237c.js.map",
+    "main.c65fa3e1.js.map": "/mudaser-sayeedi-portfolio/static/js/main.c65fa3e1.js.map",
     "787.213c6467.chunk.js.map": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9fb6fde.css",
-    "static/js/main.f909237c.js"
+    "static/js/main.c65fa3e1.js"
   ]
 }
