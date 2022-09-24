@@ -2,18 +2,18 @@ import React from "react";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Navigate } from "react-router-dom";
-import Home from "./pages/home/home.page";
+import Main from "./pages/main/main.page";
 
 function App() {
   const router = createBrowserRouter(
     [
       {
         path: "/",
-        element: <Navigate to="en/home" />,
+        element: <Navigate to="en/main" />,
       },
       {
-        path: "en/home",
-        element: <Home />,
+        path: "en/main",
+        element: <Main />,
       },
     ],
     { basename: "/mudaser-sayeedi-portfolio" }
