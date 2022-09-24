@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.e547f956.js",
+    "static/js/787.213c6467.chunk.js": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js",
+    "service-worker.js": "/mudaser-sayeedi-portfolio/service-worker.js",
+    "static/media/logo.svg": "/mudaser-sayeedi-portfolio/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/mudaser-sayeedi-portfolio/index.html",
+    "main.073c9b0a.css.map": "/mudaser-sayeedi-portfolio/static/css/main.073c9b0a.css.map",
+    "main.e547f956.js.map": "/mudaser-sayeedi-portfolio/static/js/main.e547f956.js.map",
+    "787.213c6467.chunk.js.map": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e547f956.js"
+  ]
+}
