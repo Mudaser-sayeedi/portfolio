@@ -2,7 +2,7 @@ import React from "react";
 import "./main.page.scss";
 
 const Main = () => {
-  return <div>Home route</div>;
+  return <div>Main Page Route</div>;
 };
 
 export default Main;
