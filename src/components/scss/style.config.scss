@@ -1,0 +1,25 @@
+// MY CSS VARIABALES HERE
+$bg-color: #1f1f38;
+$bg-variant-color: #2c2d6c;
+$primary-color: #4db5ff;
+$primary-color-variant: rgba(77, 181, 255, 0.4);
+$white-color: #fff;
+$light-color: rgba(255, 255, 255, 0.6);
+$transition: all 400ms ease;
+$container-width-lg: 75%;
+$container-width-md: 86%;
+$container-width-sm: 90%;
+
+// using some operations for media query of MD AND SM sized of application
+
+@mixin medium-devices {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin small-devices {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}

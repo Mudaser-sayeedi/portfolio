@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap");
+@import "./components/scss/style.config.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: $bg-color;
+  color: $white-color;
+  line-height: 1.7;
+  background-image: url("./assets/images/bg-texture.png");
+}
+
+// GENERAL STYLES HERE
+.container {
+  width: $container-width-lg;
+  margin: 0 auto;
+  @include medium-devices {
+    width: $container-width-md;
+  }
+  @include small-devices {
+    width: $container-width-sm;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+  height: 100vh;
+  h2,
+  h5 {
+    text-align: center;
+    color: $light-color;
+  }
+  h2 {
+    color: $primary-color;
+    margin-bottom: 3rem;
+    @include small-devices {
+      margin-bottom: 2rem;
+    }
+  }
+  @include medium-devices {
+    margin-top: 6rem;
+  }
+}
+
+.text-light {
+  color: $light-color;
+}
+
+a {
+  color: $primary-color;
+  transition: $transition;
+  &:hover {
+    color: $white-color;
+  }
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: $primary-color;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid $primary-color;
+  transition: $transition;
+  &:hover {
+    background-color: $white-color;
+    color: $bg-color;
+    border-color: transparent;
+  }
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  color: $bg-color;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
