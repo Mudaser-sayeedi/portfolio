@@ -1,0 +1,60 @@
+@import '../scss/style.config.scss';
+
+.contact_container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    @include medium-devices{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    @include small-devices{
+        width: $container-width-sm;
+    }
+}
+
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact_option{
+    background: $bg-variant-color;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: $transition;
+    &:hover{
+        background: transparent;
+        border-color: $primary-color-variant;
+    }
+    a{
+        margin-top: 0.7rem;
+        display: inline-block;
+        font-size: 0.8rem;
+    }
+}
+
+.contact_option_icon{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid $primary-color-variant;
+    resize: none;
+    color: $white-color;
+}

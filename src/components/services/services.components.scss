@@ -1,0 +1,83 @@
+@import "../scss/style.config.scss";
+
+.services_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  @include medium-devices{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  @include medium-devices{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.service {
+  background: $bg-variant-color;
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid $primary-color;
+  height: fit-content;
+  transition: $transition;
+  &:hover {
+    background: transparent;
+    border-color: $primary-color-variant;
+    cursor: default;
+  }
+  @include medium-devices{
+    height: auto;
+  }
+
+}
+
+.service_head{
+    background: $primary-color;
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    h3{
+        color: $bg-color;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.service_list{
+    padding: 2rem;
+    li{
+        display: flex;
+        gap: 1rem;
+        margin-top: 0.8rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+}
+
+.service_list_icon{
+    font-size: 2rem;
+    color: $primary-color;
+    margin-top: 2px;
+    @include medium-devices{
+        font-size: 1.5rem;
+    }
+    @include small-devices{
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

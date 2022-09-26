@@ -1,0 +1,42 @@
+@import '../scss/style.config.scss';
+
+.portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  @include medium-devices{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  @include small-devices{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.portfolio_item {
+  background: $bg-variant-color;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: $transition;
+  &:hover {
+    border-color: $primary-color-variant;
+    background: transparent;
+  }
+  h3{
+    margin: 1.2rem 0 2rem;
+  }
+}
+
+.portfolio_item_image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio_item_cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}

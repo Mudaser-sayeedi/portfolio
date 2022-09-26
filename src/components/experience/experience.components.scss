@@ -1,0 +1,58 @@
+@import '../scss/style.config.scss';
+
+.experience_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;    
+    >div{
+        background: $bg-variant-color;
+        padding: 2.4rem 5rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: $transition;
+        &:hover{
+            background: transparent;
+            border-color: $primary-color-variant;
+            cursor: default;
+        }
+        h3{
+            text-align: center;
+            margin-bottom: 2rem;
+            color: $primary-color;
+        }
+        @include medium-devices{
+            width: 80%;
+            padding: 2rem;
+            margin: 0 auto;
+        }
+        @include small-devices{
+            width: 100%;
+            padding: 2rem 1rem;
+        }
+    }
+    @include medium-devices{
+        grid-template-columns: 1fr;
+    }
+    @include small-devices{
+        gap: 1rem;
+    }
+}
+
+.experience_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    @include medium-devices{
+        padding: 1rem;
+    }
+}
+
+.experience_details{
+    display: flex;
+    gap: 1rem;
+}
+
+.experience_details_icon{
+    margin-top: 6px;
+    color: $primary-color;
+}
