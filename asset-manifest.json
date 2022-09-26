@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.a5b29531.css",
+    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.de1987d7.css",
     "main.js": "/mudaser-sayeedi-portfolio/static/js/main.a3519999.js",
     "static/js/787.213c6467.chunk.js": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js",
     "static/media/me.png": "/mudaser-sayeedi-portfolio/static/media/me.821ecddcb9953b46bf75.png",
@@ -14,12 +14,12 @@
     "service-worker.js": "/mudaser-sayeedi-portfolio/service-worker.js",
     "static/media/portfolio4.jpg": "/mudaser-sayeedi-portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/mudaser-sayeedi-portfolio/index.html",
-    "main.a5b29531.css.map": "/mudaser-sayeedi-portfolio/static/css/main.a5b29531.css.map",
+    "main.de1987d7.css.map": "/mudaser-sayeedi-portfolio/static/css/main.de1987d7.css.map",
     "main.a3519999.js.map": "/mudaser-sayeedi-portfolio/static/js/main.a3519999.js.map",
     "787.213c6467.chunk.js.map": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5b29531.css",
+    "static/css/main.de1987d7.css",
     "static/js/main.a3519999.js"
   ]
 }
