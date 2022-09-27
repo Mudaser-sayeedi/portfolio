@@ -24,12 +24,16 @@ nav {
     color: $light-color;
     font-size: 1.1rem;
     -webkit-tap-highlight-color: transparent;
-    &:hover{
-        background: rgba(0, 0, 0, 0.3);
+    &:hover {
+      background: rgba(0, 0, 0, 0.3);
     }
   }
-  .active{
-    background: $bg-color;
-    color: $white-color;
+  .active {
+    background: $primary-color;
+    color: $bg-color;
+    &:hover {
+      background: $primary-color;
+      color: $bg-color;
+    }
   }
 }
