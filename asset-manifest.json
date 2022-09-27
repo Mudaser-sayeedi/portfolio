@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.94a277e2.css",
-    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.b6349973.js",
+    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.b2acb4ed.css",
+    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.416fdefd.js",
     "static/js/787.213c6467.chunk.js": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js",
     "static/media/me.png": "/mudaser-sayeedi-portfolio/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/me-about.jpg": "/mudaser-sayeedi-portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
@@ -14,12 +14,12 @@
     "service-worker.js": "/mudaser-sayeedi-portfolio/service-worker.js",
     "static/media/portfolio4.jpg": "/mudaser-sayeedi-portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/mudaser-sayeedi-portfolio/index.html",
-    "main.94a277e2.css.map": "/mudaser-sayeedi-portfolio/static/css/main.94a277e2.css.map",
-    "main.b6349973.js.map": "/mudaser-sayeedi-portfolio/static/js/main.b6349973.js.map",
+    "main.b2acb4ed.css.map": "/mudaser-sayeedi-portfolio/static/css/main.b2acb4ed.css.map",
+    "main.416fdefd.js.map": "/mudaser-sayeedi-portfolio/static/js/main.416fdefd.js.map",
     "787.213c6467.chunk.js.map": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94a277e2.css",
-    "static/js/main.b6349973.js"
+    "static/css/main.b2acb4ed.css",
+    "static/js/main.416fdefd.js"
   ]
 }
