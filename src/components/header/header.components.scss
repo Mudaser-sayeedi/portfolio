@@ -1,14 +1,15 @@
 @import "../scss/style.config.scss";
 
 header {
-  height: 100vh;
+  // height: 100vh;
   padding-top: 7rem;
-  overflow: hidden;
+  // overflow: hidden;
+
   @include medium-devices {
-    height: 68vh;
+    // height: 68vh;
   }
   @include small-devices {
-    height: 100vh;
+    // height: 100vh;
   }
 }
 
@@ -53,12 +54,19 @@ header {
   background: linear-gradient($primary-color, transparent);
   width: 22rem;
   height: 30rem;
-  position: absolute;
+  position: relative;
   left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  // overflow: hidden;
+  // padding: 5rem 0.2rem 1.5rem 0.2rem;
+  // padding: 0 0 0 0;
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0 0 0.5rem 0.5rem;
+    // object-fit:cover;
+  }
 }
 
 // SCROLL DOWN STYLE HERE

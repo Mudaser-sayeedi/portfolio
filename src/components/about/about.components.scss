@@ -11,7 +11,8 @@
 }
 
 .about_me {
-  width: 100%;
+  // width: 100%;
+  width: 90%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(45deg, transparent, $primary-color, transparent);
@@ -19,21 +20,23 @@
   place-items: center;
   @include medium-devices {
     width: 50%;
-    margin: 2rem auto 4rem;
+    margin: 4rem auto 6rem;
   }
   @include small-devices {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: 1rem auto 3rem;
   }
 }
 
 .about_me_image {
+  border: 2px solid $primary-color;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: $transition;
   &:hover {
     transform: rotate(0);
+    border-color: $bg-variant-color;
   }
 }
 
