@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.b2acb4ed.css",
-    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.416fdefd.js",
+    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.fb60080e.css",
+    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.29492476.js",
     "static/js/787.213c6467.chunk.js": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js",
-    "static/media/me.png": "/mudaser-sayeedi-portfolio/static/media/me.821ecddcb9953b46bf75.png",
-    "static/media/me-about.jpg": "/mudaser-sayeedi-portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/me.png": "/mudaser-sayeedi-portfolio/static/media/me.062375b8d5262d66061a.png",
+    "static/media/me-about.jpg": "/mudaser-sayeedi-portfolio/static/media/me-about.4e6799f80effb76ef22b.jpg",
     "static/media/portfolio5.png": "/mudaser-sayeedi-portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/mudaserCV.pdf": "/mudaser-sayeedi-portfolio/static/media/mudaserCV.759aa00966a8e0ae6975.pdf",
     "static/media/portfolio2.jpg": "/mudaser-sayeedi-portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
@@ -14,12 +14,12 @@
     "service-worker.js": "/mudaser-sayeedi-portfolio/service-worker.js",
     "static/media/portfolio4.jpg": "/mudaser-sayeedi-portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/mudaser-sayeedi-portfolio/index.html",
-    "main.b2acb4ed.css.map": "/mudaser-sayeedi-portfolio/static/css/main.b2acb4ed.css.map",
-    "main.416fdefd.js.map": "/mudaser-sayeedi-portfolio/static/js/main.416fdefd.js.map",
+    "main.fb60080e.css.map": "/mudaser-sayeedi-portfolio/static/css/main.fb60080e.css.map",
+    "main.29492476.js.map": "/mudaser-sayeedi-portfolio/static/js/main.29492476.js.map",
     "787.213c6467.chunk.js.map": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2acb4ed.css",
-    "static/js/main.416fdefd.js"
+    "static/css/main.fb60080e.css",
+    "static/js/main.29492476.js"
   ]
 }
