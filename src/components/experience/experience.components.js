@@ -48,6 +48,20 @@ function Experience() {
                 <small className="text-light">Experience</small>
               </div>
             </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details_icon" />
+              <div>
+                <h4>MUI/Material Design3</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details_icon" />
+              <div>
+                <h4>Figma UI/UX Design</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -57,7 +71,7 @@ function Experience() {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
-                <h4>Node</h4>
+                <h4>NodeJs</h4>
                 <small className="text-light">Experience</small>
               </div>
             </article>
@@ -65,7 +79,7 @@ function Experience() {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
-                <h4>Express</h4>
+                <h4>ExpressJs</h4>
                 <small className="text-light">Experience</small>
               </div>
             </article>
@@ -90,11 +104,17 @@ function Experience() {
                 <small className="text-light">Experience</small>
               </div>
             </article>
-
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
-                <h4>Node</h4>
+                <h4>Ajax</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details_icon" />
+              <div>
+                <h4>Firebase</h4>
                 <small className="text-light">Experience</small>
               </div>
             </article>

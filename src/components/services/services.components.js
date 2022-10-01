@@ -17,27 +17,39 @@ function Services() {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Creative direction</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Strong layout and graphic redesign</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Flash and HTML5 animation</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Content analysis and generation</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Custom graphic</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>identiry or brand development</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Logo design</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Usabality</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Information architecture</p>
             </li>
           </ul>
         </article>
@@ -50,31 +62,59 @@ function Services() {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Content management system</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Shopping Cart</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Online ordering and online payment</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Event booking system</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Document management system</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Blog and news management</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Social media integration</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Mobile optimized website</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Mobile application</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Portfolio showcases</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Website maintenance</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Testimonials</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Learning mangement system</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Web Portals</p>
             </li>
           </ul>
         </article>
@@ -87,27 +127,43 @@ function Services() {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Blog posts</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Long-form Content</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Online guides</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Infographics</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Micrographics</p>
             </li>
             <li>
               <BiCheck className="service_list_icon" />
-              <p>Incididunt voluptate est velit sint commodo aute qui.</p>
+              <p>Content Strategy</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Content development</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Content optimization</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Content promotion</p>
+            </li>
+            <li>
+              <BiCheck className="service_list_icon" />
+              <p>Content reporting</p>
             </li>
           </ul>
         </article>

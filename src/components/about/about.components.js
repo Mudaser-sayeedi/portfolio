@@ -29,23 +29,32 @@ function About() {
             <article className="about_card">
               <FiUsers className="about_icon" />
               <h5>Clients</h5>
-              <small>200+ Wordwide</small>
+              <small>10+ Wordwide</small>
             </article>
 
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p>
-            Non incididunt velit amet deserunt exercitation Lorem ea duis sint
-            proident ad. Officia deserunt veniam occaecat eu. Ullamco laborum
-            est occaecat laboris velit consequat consequat mollit fugiat do
-            duis. Duis esse duis irure fugiat voluptate sint duis consequat
-            consequat commodo labore veniam culpa. Incididunt aliqua nulla
-            aliquip laborum officia incididunt non.
+            I am an experienced software developer. I bring more than three
+            years’ experience writing JavaScript full-stack Web-Applications and
+            Mobile-Applications. Spearheaded successful transition from LAMP
+            stack to MERN stack which cut latency by 40% and increased
+            effectiveness of Database administrators by 20%.
+          </p>
+          <p>
+            I am a Full-Stack Developer who has a wide range of Front-End and
+            Back-End skills, and extensive experience of using Object-Oriented
+            languages. I really enjoy writing optimized Object-Oriented code and
+            am very good at building and maintaining applications that support
+            the solutions delivered to both internal and external customers. I
+            always look to add my own magical touch to any new code that I
+            write, and would like to mention that in the past I have worked
+            alongside some very technically able individuals in the industry.
           </p>
 
           <a href="#contact" className="btn btn-primary">
