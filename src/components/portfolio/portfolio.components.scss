@@ -1,16 +1,21 @@
 @import '../scss/style.config.scss';
 
 .portfolio_container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  // background-color: red;
+  
+  // display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  // gap: 2.5rem;
+  width: 30rem;
   @include medium-devices{
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
+    // grid-template-columns: 1fr 1fr;
+    // gap: 1.2rem;
+    width: 20rem;
   }
   @include small-devices{
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    // grid-template-columns: 1fr;
+    // gap: 1rem;
+    width: 20rem;
   }
 }
 
@@ -21,8 +26,9 @@
   border: 1px solid transparent;
   transition: $transition;
   &:hover {
+    border-width: 2px;
     border-color: $primary-color-variant;
-    background: transparent;
+    // background: transparent;
   }
   h3{
     margin: 1.2rem 0 2rem;

@@ -4,52 +4,61 @@ import IMG1 from "../../assets/images/portfolio1.jpg";
 import IMG2 from "../../assets/images/portfolio2.jpg";
 import IMG3 from "../../assets/images/portfolio3.jpg";
 import IMG4 from "../../assets/images/portfolio4.jpg";
-import IMG5 from "../../assets/images/portfolio5.png";
+import IMG5 from "../../assets/images/portfolio5.jpg";
 import IMG6 from "../../assets/images/portfolio6.jpg";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cards";
+// import required modules
+import { EffectCards } from "swiper";
 
 function Portfolio() {
   const data = [
     {
       id: 1,
       image: IMG1,
-      title: "Crypto Currency Dashboard & Financial Visualization",
-      github: "https://github.com",
-      demo: "https://.com",
+      title: "Quran Karim",
+      github: "https://github.com/Mudaser-sayeedi/Qura-n-Karim",
+      demo: "https://mudaser-sayeedi.github.io/Qura-n-Karim/",
     },
     {
       id: 2,
       image: IMG2,
-      title: "Charts templates & infographics in Figma",
-      github: "https://github.com",
-      demo: "https://.com",
+      title: "Joke Teller",
+      github: "https://github.com/Mudaser-sayeedi/MS-Joke-Teller",
+      demo: "https://mudaser-sayeedi.github.io/MS-Joke-Teller/",
     },
     {
       id: 3,
       image: IMG3,
-      title: "Figma dashboard UI kit for data design web apps",
-      github: "https://github.com",
-      demo: "https://.com",
+      title: "Gym Management System",
+      github: "https://github.com/Mudaser-sayeedi/gym",
+      demo: "https://mudaser-sayeedi.github.io/gym/",
     },
     {
       id: 4,
       image: IMG4,
-      title: "Maintaining tasks and tracking progress",
-      github: "https://github.com",
-      demo: "https://.com",
+      title: "Spock Rock Game",
+      github: "https://github.com/Mudaser-sayeedi/MS-Spock-Rock-Game",
+      demo: "https://mudaser-sayeedi.github.io/MS-Spock-Rock-Game/",
     },
     {
       id: 5,
       image: IMG5,
-      title: "Charts templates & infographics in Figma",
-      github: "https://github.com",
-      demo: "https://.com",
+      title: "Audio Player",
+      github: "https://github.com/Mudaser-sayeedi/MS-Audio-Player",
+      demo: "https://mudaser-sayeedi.github.io/MS-Audio-Player/",
     },
     {
       id: 6,
       image: IMG6,
-      title: "Crypto Currency Dashboard & Financial Visualization",
-      github: "https://github.com",
-      demo: "https://.com",
+      title: "Quote Generator",
+      github: "https://github.com/Mudaser-sayeedi/MS-Quote-Generator",
+      demo: "https://mudaser-sayeedi.github.io/MS-Quote-Generator/",
     },
   ];
 
@@ -58,10 +67,16 @@ function Portfolio() {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio_container">
+      <Swiper //it was a articale tag
+        effect={"cards"}
+        grabCursor={true}
+        modules={[EffectCards]}
+        className="container portfolio_container mySwiper"
+      >
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article className="portfolio_item" key={id}>
+            //it was a div
+            <SwiperSlide className="portfolio_item" key={id}>
               <div className="portfolio_item_image">
                 <img src={image} alt={title} />
               </div>
@@ -84,10 +99,10 @@ function Portfolio() {
                   Live Demo
                 </a>
               </div>
-            </article>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </section>
   );
 }
