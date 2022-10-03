@@ -8,7 +8,11 @@ footer {
   margin-top: 7rem;
 
   a {
-    color: $bg-color;
+    // color: $bg-color;
+    color: $white-color;
+    &:hover {
+      color: $bg-color;
+    }
   }
 
   @include medium-devices {
@@ -16,10 +20,28 @@ footer {
 }
 
 .footer_logo {
+  // background-color: red;
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2rem;
-  display: inline-block;
+  // display: inline-block;
+  img {
+    width: 15%;
+    border: 2.5px solid $bg-variant-color;
+    border-radius: 1rem;
+    margin: 0 auto;
+    @include medium-devices {
+      width: 20%;
+      border-radius: 1rem;
+    }
+    @include small-devices {
+      width: 20%;
+      border-radius: 1rem;
+    }
+    &:hover{
+      background-color: white;
+    }
+  }
 }
 
 .permalinks {
@@ -27,7 +49,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin: 0 auto 3rem;
+  margin: 3rem auto 3rem;
 
   @include small-devices {
     flex-direction: column;

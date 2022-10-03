@@ -13,9 +13,10 @@
 .about_me {
   // width: 100%;
   width: 90%;
-  aspect-ratio: 1/1;
+  // aspect-ratio: 1/1;
+  height: fit-content;
   border-radius: 2rem;
-  background: linear-gradient(45deg, transparent, $primary-color, transparent);
+  background: linear-gradient(35deg, transparent, $primary-color, transparent);
   display: grid;
   place-items: center;
   @include medium-devices {
@@ -36,7 +37,7 @@
   transition: $transition;
   &:hover {
     transform: rotate(0);
-    border-color: $bg-variant-color;
+    // border-color: $bg-variant-color;
   }
 }
 

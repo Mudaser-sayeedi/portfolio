@@ -3,11 +3,13 @@ import "./footer.components.scss";
 import { FaFacebook } from 'react-icons/fa';
 import { FiInstagram } from 'react-icons/fi';
 import { IoLogoTwitter } from "react-icons/io";
+import Me from "../../assets/images/me-about 2.png";
 
 function Footer() {
   return (
     <footer>
       <a href="#header" className="footer_logo">
+        <img src={Me} alt="" />
         Sayed Mudaser Sayeedi
       </a>
 

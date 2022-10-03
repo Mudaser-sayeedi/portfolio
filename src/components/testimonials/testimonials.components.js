@@ -18,9 +18,9 @@ function Testimonials() {
   const data = [
     {
       avatar: AVATAR1,
-      name: "Tina Snow",
+      name: "Muhib Ur Rahman Niazi",
       review:
-        "Velit in veniam cillum elit irure. Cillum eu pariatur ullamco id commodo commodo aliquip. Sit consectetur exercitation cillum consectetur nulla aliqua voluptate. Est commodo anim ipsum aute sunt nisi. Amet ex in nisi proident sit ut officia sint. Culpa do ad in culpa commodo aute.",
+        "Since having our new website built by Mudaser Sayeedi, we have seen a 100% increase in the number of online contact forms being filled out and returned to us. Sayeedi and his team worked closely with us to provide a site that met all of the criteria that we were looking for. The end result was a website that is attractive, organized and effective. Thanks to Mudaser sayeedi for all of your hard work and support!",
     },
     {
       avatar: AVATAR2,
