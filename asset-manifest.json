@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.edbdf24f.css",
-    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.73ad0198.js",
+    "main.css": "/mudaser-sayeedi-portfolio/static/css/main.ee98ad84.css",
+    "main.js": "/mudaser-sayeedi-portfolio/static/js/main.f1a30f10.js",
     "static/js/787.213c6467.chunk.js": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js",
+    "static/media/me-about 2.png": "/mudaser-sayeedi-portfolio/static/media/me-about 2.e9e70041a69353d8c521.png",
     "static/media/me.png": "/mudaser-sayeedi-portfolio/static/media/me.062375b8d5262d66061a.png",
-    "static/media/me-about.jpg": "/mudaser-sayeedi-portfolio/static/media/me-about.4e6799f80effb76ef22b.jpg",
-    "static/media/mudaserCV.pdf": "/mudaser-sayeedi-portfolio/static/media/mudaserCV.759aa00966a8e0ae6975.pdf",
+    "static/media/mudaserCV.pdf": "/mudaser-sayeedi-portfolio/static/media/mudaserCV.622bdd3905f1aaa3ecf5.pdf",
+    "static/media/avatar1.jpg": "/mudaser-sayeedi-portfolio/static/media/avatar1.ad9ff9010c3843e77920.jpg",
     "static/media/portfolio3.jpg": "/mudaser-sayeedi-portfolio/static/media/portfolio3.9b7aba4b9642c030feef.jpg",
     "static/media/portfolio1.jpg": "/mudaser-sayeedi-portfolio/static/media/portfolio1.f6f02d5bc6f3cd15ad65.jpg",
     "service-worker.js": "/mudaser-sayeedi-portfolio/service-worker.js",
@@ -13,12 +14,12 @@
     "static/media/portfolio2.jpg": "/mudaser-sayeedi-portfolio/static/media/portfolio2.c2d053244711b02a95e5.jpg",
     "static/media/portfolio5.jpg": "/mudaser-sayeedi-portfolio/static/media/portfolio5.5e59aaeccf700243c396.jpg",
     "index.html": "/mudaser-sayeedi-portfolio/index.html",
-    "main.edbdf24f.css.map": "/mudaser-sayeedi-portfolio/static/css/main.edbdf24f.css.map",
-    "main.73ad0198.js.map": "/mudaser-sayeedi-portfolio/static/js/main.73ad0198.js.map",
+    "main.ee98ad84.css.map": "/mudaser-sayeedi-portfolio/static/css/main.ee98ad84.css.map",
+    "main.f1a30f10.js.map": "/mudaser-sayeedi-portfolio/static/js/main.f1a30f10.js.map",
     "787.213c6467.chunk.js.map": "/mudaser-sayeedi-portfolio/static/js/787.213c6467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edbdf24f.css",
-    "static/js/main.73ad0198.js"
+    "static/css/main.ee98ad84.css",
+    "static/js/main.f1a30f10.js"
   ]
 }
