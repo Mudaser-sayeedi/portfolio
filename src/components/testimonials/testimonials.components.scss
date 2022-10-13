@@ -1,40 +1,40 @@
-@import '../scss/style.config.scss';
+@import "../scss/style.config.scss";
 
-.testimonials_container{
-    width: 40%;
-    @include medium-devices{
-        width: 60%;
-    }
-    @include small-devices{
-        width: $container-width-sm;
-    }
+.testimonials_container {
+  width: 40%;
+  @include medium-devices {
+    width: 60%;
+  }
+  @include small-devices {
+    width: $container-width-sm;
+  }
 }
 
-.client_avatar{
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid $primary-color-variant;
+.client_avatar {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0.4rem solid $primary-color-variant;
 }
 
-.testimonial{
-    background: $bg-variant-color;
-    text-align: center;
-    padding: 2rem;
-    border-radius: 2rem;
-    user-select: none;
+.testimonial {
+  background: $bg-variant-color;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
 }
 
-.client_review{
-    text-align: justify;
-    color: $light-color;
-    font-weight:300;
-    display: block;
-    width: 80%;
-    margin: 0.8rem auto 0;
-    @include small-devices{
-        width: $container-width-sm;
-    }
+.client_review {
+  text-align: justify;
+  color: $light-color;
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0.8rem auto 0;
+  @include small-devices {
+    width: $container-width-sm;
+  }
 }

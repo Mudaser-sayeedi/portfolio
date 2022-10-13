@@ -24,15 +24,15 @@ function Testimonials() {
     },
     {
       avatar: AVATAR2,
-      name: "Shatta Wale",
+      name: "Alina Alami",
       review:
-        "Velit in veniam cillum elit irure. Cillum eu pariatur ullamco id commodo commodo aliquip. Sit consectetur exercitation cillum consectetur nulla aliqua voluptate. Est commodo anim ipsum aute sunt nisi. Amet ex in nisi proident sit ut officia sint. Culpa do ad in culpa commodo aute.",
+        "I have experienced one of the most talented, creative, friendly, lexible software engineer in my whole work life. Mr.Sayeedi caught quickly and exactly that I wanted, I have recieved more than what I had expected... words can not explain how unique the final result was, Most passionate to work with people, more productive and publishes hight quality softwares. It was such a pleasure to had the opportunity of working with Mr.Sayeedi."
     },
     {
       avatar: AVATAR3,
-      name: "Kwame Despite",
+      name: "Esmat Rahmani",
       review:
-        "Velit in veniam cillum elit irure. Cillum eu pariatur ullamco id commodo commodo aliquip. Sit consectetur exercitation cillum consectetur nulla aliqua voluptate. Est commodo anim ipsum aute sunt nisi. Amet ex in nisi proident sit ut officia sint. Culpa do ad in culpa commodo aute.",
+        "Dear Mudaser Sayeedi I am pleased with your determination to finish this project, Your helpful attitude shows you are ready to take on new challenges and grow with the company. I'm excited to have another project with you. Good luck."
     },
     {
       avatar: avatar4,
