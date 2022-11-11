@@ -16,7 +16,7 @@ function App() {
         element: <Main />,
       },
     ],
-    { basename: "/mudaser-sayeedi-portfolio" }
+    { basename: "/portfolio" }
   );
 
   return <RouterProvider router={router} />;
