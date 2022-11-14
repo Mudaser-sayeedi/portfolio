@@ -4,7 +4,6 @@ import "./header.components.scss";
 import ME from "../../assets/images/me.png";
 import HeaderSocials from "./headerSocials.components";
 
-
 function Header() {
   return (
     <header id="header">
@@ -14,7 +13,7 @@ function Header() {
         <h5 className="text-light">Full-Stack Developer</h5>
         <CTA></CTA>
         <HeaderSocials></HeaderSocials>
-        
+
         <div className="me">
           <img src={ME} alt="MY Pic" />
         </div>
